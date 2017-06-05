@@ -1,0 +1,190 @@
+section{
+	width:600px;
+	height: 550px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #CFCFCF;
+		border: 5px solid black;
+	
+}
+
+#topo {
+	border: 5px solid black;
+	width: 600px;
+	height: 20px;
+	margin: auto;
+	background: black;
+}
+
+#titulo{
+	color: white;
+	margin: auto;
+	margin-left: 210px;
+	
+	
+}
+
+
+.botoes1{
+	
+	margin:auto;
+	width:580px;
+	height: 30px;
+	background-color: #CFCFCF;
+	padding: 10px;
+}
+
+.botoes2{
+	margin:auto;
+	width:580px;
+	height: 30px;
+	background-color: #CFCFCF;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+h3 {
+	margin: auto;
+}
+button {
+		margin:auto;
+		width:120px;
+		height: 40px;
+		display: inline-block;
+		cursor: pointer;
+		text-ali: 	;gn: center;
+		text-decoration: none;
+		outline: none;
+		color: #fff;
+		background-color: #000000;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+		text-shadow: 2px 2px #000000;
+}
+
+button:hover {
+	background-color: #3e8e41}
+
+button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.primeira{
+	
+	width:480px;
+	height: 113px;
+	background-color: #CFCFCF;
+	margin: auto;
+	
+}
+
+
+.segunda{
+	
+	width:480px;
+	height: 105px;
+	background-color: #CFCFCF;
+	margin: auto;
+}
+
+.terceira{
+	
+	width:480px;
+	height: 113px;
+	background-color: #CFCFCF;
+	margin: auto;
+}
+
+.quarta{
+	
+	width:480px;
+	height: 113px;
+	background-color: #CFCFCF;
+	margin: auto;
+}
+
+.azul {
+	
+	float: left;
+	margin: 5px;
+}
+.amarelo {
+	
+	float: left;
+	margin: 5px;
+}
+.verde {
+	
+	float: left;
+	margin: 5px;
+}
+.vermelho {
+	
+	float: left;
+	margin: 5px;
+}
+
+.azul2 {
+	
+	float: left;
+	margin: 5px;
+}
+.amarelo2 {
+	
+	float: left;
+	margin: 5px;
+}
+.verde2 {
+	
+	float: left;
+	margin: 5px;
+}
+.vermelho2 {
+	
+	float: left;
+	margin: 5px;
+}
+
+.azul3 {
+	
+	float: left;
+	margin: 5px;
+}
+.amarelo3 {
+	
+	float: left;
+	margin: 5px;
+}
+.verde3 {
+	
+	float: left;
+	margin: 5px;
+}
+.vermelho3 {
+	
+	float: left;
+	margin: 5px;
+}
+
+.azul4 {
+	
+	float: left;
+	margin: 5px;
+}
+.amarelo4 {
+	
+	float: left;
+	margin: 5px;
+}
+.verde4 {
+	
+	float: left;
+	margin: 5px;
+}
+.vermelho4 {
+	
+	float: left;
+	margin: 5px;
+}

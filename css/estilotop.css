@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tudo {
+	margin: auto;
+	border: 5px solid black;
+	width: 580px;
+	height: 530px;
+	background-image: url(../img/top.jpg);
+	
+}
+#tela {
+	
+		
+}
+#titulo{
+	color: white;
+	margin: auto;
+	margin-left: 85px;
+	margin-top: 10px;
+	
+}
+
+#topo {
+	border: 5px solid black;
+	width: 580px;
+	height: 40px;
+	margin: auto;
+	background: black;
+}
+
+#tela {
+	margin-top: 10px;
+	margin-left: 20px;
+	
+}
+
+

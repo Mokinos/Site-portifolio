@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#1").click(function(){
+        $("#amarelo").fadeTo("slow", 0.1);
+        $("#vermelho3").fadeTo("slow", 0.10);
+        $("#azul3").fadeTo("slow", 1);
+    });
+	
+	$("#2").click(function(){
+        $("#verde2").fadeTo("slow", 0.1);
+        $("#vermelho").fadeTo("slow", 1);
+        $("#verde3").fadeTo("slow", 0.1);
+    });
+	
+	$("#3").click(function(){
+        $("#azul3").fadeTo("slow", 0.1);
+        $("#amarelo2").fadeTo("slow", 1);
+        $("#amarelo3").fadeTo("slow", 0.1);
+    });
+	
+	$("#4").click(function(){
+        $("#amarelo2").fadeTo("slow", 0.1);
+        $("#verde").fadeTo("slow", 1);
+        $("#verde3").fadeTo("slow", 1);
+    });
+	
+	$("#5").click(function(){
+        $("#verde").fadeTo("slow", 0.1);
+        $("#amarelo4").fadeTo("slow", 0.1);
+        $("#azul2").fadeTo("slow", 0.1);
+    });
+	
+	$("#6").click(function(){
+        $("#azul4").fadeTo("slow", 0.1);
+        $("#azul").fadeTo("slow", 1);
+        $("#vermelho4").fadeTo("slow", 0.1);
+    });
+	
+	$("#7").click(function(){
+        $("#amarelo").fadeTo("slow", 1);
+        $("#amarelo3").fadeTo("slow", 1);
+        $("#verde4").fadeTo("slow", 0.1);
+    });
+	
+	$("#8").click(function(){
+        $("#azul").fadeTo("slow", 0.1);
+        $("#vermelho").fadeTo("slow", 0.1);
+        $("#vermelho2").fadeTo("slow", 0.1);
+    });
+});
+	
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/stylo.css">
+
+
+
+
+</head>
+
+<body>
+
+		<div id="topo"> <h2 id="titulo"> Jogo da paciência</h2></div>
+<section>
+
+	<div class="botoes1"> 
+		<button class="1" id="1"><h3>Você</h3></button>
+		<button class="2" id="2"><h3>não</h3></button>
+		<button class="3" id="3"><h3>irá</h3></button>
+		<button class="4" id="4"><h3>ganhar</h3></button>
+		
+	</div>	
+		
+	<div class="botoes2"> 
+		<button class="5" id="5"><h3>tão</h3></button>
+		<button class="6" id="6"><h3>fácil</h3></button>
+		<button class="7" id="7"><h3>do</h3></button>
+		<button class="8" id="8"><h3>jogo</h3></button>
+	</div>	
+	
+
+	<div class="primeira"> 
+		<div class= "amarelo" id ="amarelo"> <img src="img/amarelo.png" width="110" height="102" /> </div>
+
+		<div class = "vermelho" id ="vermelho"> <img src="img/vermelho.png" width="110" height="102"/> </div>
+
+		<div  class ="verde" id ="verde"> <img src="img/verde.png" width="110" height="102"/> </div>
+
+		<div  class ="azul"  id ="azul"> <img src="img/azul.png" width="110" height="102"/> </div>
+
+	</div>
+
+	<div class="segunda"> 
+		<div class ="verde2" id ="verde2"> <img src="img/verde.png" width="110" height="102" /> </div>
+
+		<div class ="amarelo2" id="amarelo2"> <img src="img/amarelo.png" width="110" height="102" /> </div>
+
+		<div class ="azul2" id ="azul2"> <img src="img/azul.png" width="110" height="102" /> </div>
+
+		<div class ="vermelho2" id ="vermelho2"> <img src="img/vermelho.png" width="110" height="102" /> </div>
+		
+	</div>
+	
+	<div class="terceira">
+		<div class ="azul3" id ="azul3"> <img src="img/azul.png" width="110" height="102"/> </div>
+
+		<div class ="verde3" id ="verde3"> <img src="img/verde.png" width="110" height="102"/> </div>
+		
+		<div class ="vermelho3" id ="vermelho3"> <img src="img/vermelho.png" width="110" height="102"/> </div>
+		
+		<div class ="amarelo3" id ="amarelo3"> <img src="img/amarelo.png" width="110" height="102"/> </div>
+
+		
+		
+	</div>
+	
+	<div class="quarta">
+		<div class ="verde4" id ="verde4"> <img src="img/verde.png" width="110" height="102"/> </div>
+
+		<div class ="azul4" id ="azul4"> <img src="img/azul.png" width="110" height="102"/> </div>
+		
+		<div class ="amarelo4" id ="amarelo4"> <img src="img/amarelo.png" width="110" height="102"/> </div>
+
+		<div class ="vermelho4" id ="vermelho4"> <img src="img/vermelho.png" width="110" height="102"/> </div>
+		
+		
+
+	</div>
+</section>
+</body>
+</html>

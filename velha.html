@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE> Jogo da Velha </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+
+    <link rel="stylesheet" type="text/css" href="css/estilovelha.css">
+	<script type="text/javascript" src="js/javavelha.js"></script>
+ </HEAD>
+
+ <BODY>
+ 
+ 	<div id="topo"> <h2 id="titulo"> Jogo da Velha</h2></div>
+ 	<div id='tudo'>
+	<fieldset>
+		<legend> Jogadores </legend>
+		<label for="Jogador 1"> Jogador 1: </label>
+		<input type="text" id="jogador1"/>
+		<label for="Jogador 1"> Jogador 2: </label>
+		<input type="text" id="jogador2"/>
+
+		<input type="button" value="Iniciar" style="margin-top:4px; height:25px; width:150px; font-size:14px" onclick="javascript: initGame();"/>
+	</fieldset>
+
+	<h3 id="jogadorAtual"> </h3>
+
+<div id="game">
+	<table cellpadding="0" cellspacing="0">
+		<tr border="1"> 
+			<td onclick="javascript: setOnCeil(this, 0);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 1);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 2);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+		</tr>
+		<tr> 
+			<td onclick="javascript: setOnCeil(this, 3);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 4);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 5);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+		</tr>
+		<tr> 
+			<td onclick="javascript: setOnCeil(this, 6);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 7);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+			<td onclick="javascript: setOnCeil(this, 8);" onmouseover="javascript: this.style.backgroundColor = 'blue'" onmouseout="javascript: this.style.backgroundColor = 'white'">&nbsp;  </td>
+		</tr>
+	</table>
+</div>
+  </div>
+ </BODY>
+</HTML>

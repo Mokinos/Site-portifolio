@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#topo {
+	border: 5px solid black;
+	width: 600px;
+	height: 20px;
+	margin: auto;
+	background: black;
+}
+
+#titulo{
+	color: white;
+	margin: auto;
+	margin-left: 228px;
+	
+	
+}
+
+#tudo { background-image: url(../img/velha.png); width: 600px; height: 560px; margin: auto; border:5px solid black;}
+	
+legend {margin: auto; background-color: white; border:2px solid black;}
+	
+#jogadorAtual {margin-left: 50px; margin-bottom: 20px; font-size: 25px}
+    
+table {width:550px; height:350px; border:2px solid black; margin: auto}
+	
+table tr { background-color:white; font:bold 80px Verdana; color:black; border:3px solid black}
+	
+table tr td {text-align:center; width:33.33%; border:3px solid black}
+	
+table tr td:hover {cursor:pointer}
+	
+input[type=button] {width:150px; height:50px; font-size:20px; font-weight:bold; margin-bottom:20px; margin-left: 75px; margin-top: 20px}
+	
+	
+fieldset {background-color: white; font-size:20; font-weight:bold; border:2px solid black; width: 300px; margin-bottom:25px; margin: auto;}

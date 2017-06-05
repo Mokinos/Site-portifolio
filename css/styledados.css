@@ -1,0 +1,69 @@
+@charset 'UTF-8';
+
+#regras{
+	background-color: white;
+	border: 5px solid black;
+	margin-top: 15px;
+}
+#canvas{
+	background-color: white;
+	margin-top: 20px;
+	
+	border: 5px solid black;
+}
+#tudo {
+	margin: auto;
+	border: 5px solid black;
+	width: 600px;
+	height: 550px;
+	background-image: url("../img/dados.jpg" )
+		
+}
+#topo {
+	border: 5px solid black;
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	background: black;
+}
+
+#titulo{
+	color: white;
+	margin: auto;
+	margin-left: 210px;
+	
+	
+}
+#campos {
+	margin: auto;
+	width: 220px;
+	margin-top: 20px;
+
+	
+}
+
+ul {
+	margin: auto;
+}
+
+li {
+	margin: auto;
+}
+#texto {
+	margin: auto;
+	
+	
+}
+
+#f{
+	margin-top: 20px;
+}
+button {
+	margin: auto;
+	margin-left: 42px;
+	margin-top: 20px;
+}
+#rolagem {
+	margin-top: 20px;
+	margin: auto;
+}

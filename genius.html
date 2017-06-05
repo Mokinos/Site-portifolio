@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+		<script type="text/javascript" src="js/loopgenius.js"></script>
+		<title>Game Genius</title>
+	</head>
+	<body>
+	<div id="topo"> <h2 id="titulo"> GENIUS - TESTE SUA MEMÓRIA!</h2></div>
+	<div id="tudo">
+		<div id="container">
+			<div id="simon">
+				<div id="first"></div>
+				<div id="a" onclick="meuClique(0)"></div>
+				<div id="b" onclick="meuClique(1)"></div>
+				<div id="c" onclick="meuClique(2)"></div>
+				<div id="d" onclick="meuClique(3)"></div>
+				<div id="sixth"></div>
+			</div>
+			<div id="count">0</div>
+		</div>
+		<div id="start" onclick="inicia()">Jogar</div>
+		<div id="fail" onclick="reinicia()">
+			<span>Clique para tentar novamente</span>
+		</div>
+	</div>
+		
+		<script type="text/javascript">
+			
+			resizeInit(600,500, false,false);
+		</script>
+	</body>
+</html>
